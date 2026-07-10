@@ -308,6 +308,8 @@ section{position:relative;z-index:2;}
 }
 .res-label{font-family:var(--mono);font-size:.62rem;letter-spacing:.15em;color:var(--rose);opacity:.7;margin-bottom:1.2rem;}
 .res-title{font-family:var(--serif-d);font-size:clamp(1.4rem,3vw,2rem);font-weight:700;line-height:1.2;margin-bottom:1.2rem;}
+.res-title-link{color:inherit;text-decoration:none;background-image:linear-gradient(var(--rose),var(--rose));background-repeat:no-repeat;background-position:0 100%;background-size:0% 1px;transition:background-size .3s ease,color .3s ease;}
+.res-title-link:hover{background-size:100% 1px;color:var(--rose);}
 .res-title em{color:var(--rose);font-style:italic;}
 .res-body{font-family:var(--serif-b);font-size:1rem;font-weight:300;line-height:1.85;color:var(--muted);margin-bottom:1.5rem;}
 .res-doi{font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;color:rgba(240,220,150,0.45);}
